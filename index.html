@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>列車通過表</title>
+		<meta charset="UTF-8">
+		<link href="train_page.css" rel="stylesheet">
+	</head>
+	<body>
+		<script src="train_page.js"></script>
+		<div class="frame">
+			<div class="display">
+				<div class="top">
+					<div class="line"><div class="square" id="uetsu"></div>羽越本線</div>
+					<div class="line"><div class="square" id="rikuu"></div>陸羽西線</div>
+					<div class="real_time">
+						<div class="time_text">現在時刻</div>
+						<div id="hour"></div>
+						<div id="colon">:</div>
+						<div id="mins"></div>
+					</div>
+				</div>
+				<hr>
+				<div class="flex">
+					<div class="title">上り</div>
+					<div>
+						<div class="train">
+							<div class="type" id="up1_type"></div>
+							<div class="name" id="up1_name"></div>
+							<div class="time" id="up1_time"></div>
+							<div class="dest" id="up1_dest"></div>
+						</div>
+						<div class="train">
+							<div class="type" id="up2_type"></div>
+							<div class="name" id="up2_name"></div>
+							<div class="time" id="up2_time"></div>
+							<div class="dest" id="up2_dest"></div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="flex">
+					<div class="title">下り</div>
+					<div>
+						<div class="train">
+							<div class="type" id="down1_type"></div>
+							<div class="name" id="down1_name"></div>
+							<div class="time" id="down1_time"></div>
+							<div class="dest" id="down1_dest"></div>
+						</div>
+						<div class="train">
+							<div class="type" id="down2_type"></div>
+							<div class="name" id="down2_name"></div>
+							<div class="time" id="down2_time"></div>
+							<div class="dest" id="down2_dest"></div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div id="bottom"></div>
+			</div>
+		</div>
+	</body>
+</html>
