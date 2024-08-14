@@ -69,6 +69,7 @@ function Display() {
 			}
 		}
 	} else {
+		var n_up = 18;
 		document.getElementById("up1_type").innerHTML = "";
 		document.querySelector("#up1_type").style.backgroundColor = b_color;
 		document.getElementById("up1_name").innerHTML = "";
@@ -120,6 +121,7 @@ function Display() {
 			}
 		}
 	} else {
+		var n_dn = 18;
 		document.getElementById("down1_type").innerHTML = "";
 		document.querySelector("#down1_type").style.backgroundColor = b_color;
 		document.getElementById("down1_name").innerHTML = "";
