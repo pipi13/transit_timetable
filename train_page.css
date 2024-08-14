@@ -1,0 +1,139 @@
+body {background-color: #444444;}
+.flex {display: flex;}
+hr {
+	border-width: 0;
+	border-top: 1px solid #ffffff;
+	margin:11px 0 11px 0;
+}
+
+
+
+
+
+
+.frame {
+	background-color: #151515;
+	color: #ffffff;
+	width: 1340px;
+	height: 740px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	border: solid 20px #202020;
+	border-radius: 100px;
+	}
+.display {
+	background-color: #101010;
+	color: #ffffff;
+	width: 1180px;
+	height: 610px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 36px;
+	padding-right: 36px;
+	font-size: 60px;
+	border: solid 2px #000000;
+}
+
+
+
+
+
+
+.top {
+	display: flex;
+}
+.line {
+	display: flex;
+	margin-right: 60px;
+}
+.square {
+	width: 25px;
+	height: 52px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+#uetsu {
+	background-color: #16c0e9;
+}
+#rikuu {
+	background-color: #6fbf7f;
+}
+.real_time {
+	display: flex;
+	margin-right: 0;
+	margin-left: auto;
+}
+.time_text {
+	font-size: 20px;
+	width: 80px;
+	margin-top: 42px;
+	margin-right: 20px;
+}
+#hour {
+	width: 75px;
+}
+#colon {
+	width: 26px;
+}
+#mins {
+	width: 75px;
+}
+
+
+
+.title {
+	display: grid;
+	place-items: center;
+	justify-content: left;
+	font-size: 30px;
+	width: 100px;
+}
+.train {
+	display: flex;
+	width: 1080px;
+	height: 70px;
+	margin:15px 0 15px 0;
+	font-size: 50px;
+}
+.type {
+	font-size: 50px;
+	border-radius: 10px;
+	width: 200px;
+	text-align: center;
+	margin-right: 20px;
+}
+.name {
+	font-size: 50px;
+	width: 300px;
+}
+.time {
+	margin-right: 82.5px;
+	width: 145px;
+	margin-left: 82.5px;
+	text-align: right;
+}
+.dest {
+	width: 250px;
+}
+
+
+
+
+
+
+#bottom {
+	height: 90px;
+	margin-bottom: 0;
+	margin-top: auto;
+	text-align: center;
+}
