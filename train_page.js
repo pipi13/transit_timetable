@@ -1,6 +1,46 @@
-const up_str = `[{"num":530,"type":"特　急","name":"いなほ　２号","time":"5:30","dest":"　新　潟　"},{"num":700,"type":"特　急","name":"いなほ　４号","time":"7:00","dest":"　新　潟　"},{"num":704,"type":"普　通","name":"","time":"7:04","dest":"　村　上　"},{"num":802,"type":"普　通","name":"","time":"8:02","dest":"　鼠ヶ関　"},{"num":912,"type":"特　急","name":"いなほ　６号","time":"9:12","dest":"　新　潟　"},{"num":938,"type":"普　通","name":"","time":"9:38","dest":"　村　上　"},{"num":1147,"type":"普　通","name":"","time":"11:47","dest":"　鶴　岡　"},{"num":1212,"type":"特　急","name":"いなほ　８号","time":"12:12","dest":"　新　潟　"},{"num":1254,"type":"普　通","name":"","time":"12:54","dest":"　村　上　"},{"num":1414,"type":"普　通","name":"","time":"14:14","dest":"あつみ温泉"},{"num":1442,"type":"特　急","name":"いなほ１０号","time":"14:42","dest":"　新　潟　"},{"num":1446,"type":"普　通","name":"","time":"14:46","dest":"　新　津　"},{"num":1605,"type":"特　急","name":"いなほ１２号","time":"16:05","dest":"　新　潟　"},{"num":1611,"type":"普　通","name":"","time":"16:11","dest":"　村　上　"},{"num":1734,"type":"普　通","name":"","time":"17:34","dest":"　新　津　"},{"num":1818,"type":"特　急","name":"いなほ１４号","time":"18:18","dest":"　新　潟　"},{"num":1918,"type":"普　通","name":"","time":"19:18","dest":"　鼠ヶ関　"},{"num":2013,"type":"普　通","name":"","time":"20:13","dest":"　村　上　"},{"num":2142,"type":"普　通","name":"","time":"21:42","dest":"　鼠ヶ関　"},{"num":9999,"type":"","name":"","time":"","dest":""}]`;
+const up_str = `[
+{"num":530,"type":"特　急","name":"いなほ　２号","time":"5:30","dest":"　新　潟　"},
+{"num":700,"type":"特　急","name":"いなほ　４号","time":"7:00","dest":"　新　潟　"},
+{"num":703,"type":"普　通","name":"","time":"7:03","dest":"　村　上　"},
+{"num":801,"type":"普　通","name":"","time":"8:01","dest":"　鼠ヶ関　"},
+{"num":912,"type":"特　急","name":"いなほ　６号","time":"9:12","dest":"　新　潟　"},
+{"num":937,"type":"普　通","name":"","time":"9:37","dest":"　村　上　"},
+{"num":1146,"type":"普　通","name":"","time":"11:46","dest":"　鶴　岡　"},
+{"num":1211,"type":"特　急","name":"いなほ　８号","time":"12:12","dest":"　新　潟　"},
+{"num":1253,"type":"普　通","name":"","time":"12:53","dest":"　村　上　"},
+{"num":1413,"type":"普　通","name":"","time":"14:13","dest":"あつみ温泉"},
+{"num":1442,"type":"特　急","name":"いなほ１０号","time":"14:42","dest":"　新　潟　"},
+{"num":1445,"type":"普　通","name":"","time":"14:45","dest":"　新　津　"},
+{"num":1605,"type":"特　急","name":"いなほ１２号","time":"16:05","dest":"　新　潟　"},
+{"num":1610,"type":"普　通","name":"","time":"16:10","dest":"　村　上　"},
+{"num":1733,"type":"普　通","name":"","time":"17:33","dest":"　新　津　"},
+{"num":1818,"type":"特　急","name":"いなほ１４号","time":"18:18","dest":"　新　潟　"},
+{"num":1917,"type":"普　通","name":"","time":"19:17","dest":"　鼠ヶ関　"},
+{"num":2012,"type":"普　通","name":"","time":"20:12","dest":"　村　上　"},
+{"num":2141,"type":"普　通","name":"","time":"21:41","dest":"　鼠ヶ関　"},
+{"num":9999,"type":"","name":"","time":"","dest":""}]`;
 
-const dn_str = `[{"num":749,"type":"普　通","name":"","time":"7:49","dest":"　酒　田　"},{"num":813,"type":"普　通","name":"","time":"8:13","dest":"　酒　田　"},{"num":931,"type":"普　通","name":"","time":"9:31","dest":"　酒　田　"},{"num":1030,"type":"特　急","name":"いなほ　１号","time":"10:30","dest":"　秋　田　"},{"num":1130,"type":"普　通","name":"","time":"11:30","dest":"　酒　田　"},{"num":1221,"type":"普　通","name":"","time":"12:21","dest":"　酒　田　"},{"num":1300,"type":"特　急","name":"いなほ　３号","time":"13:00","dest":"　酒　田　"},{"num":1424,"type":"普　通","name":"","time":"14:24","dest":"　酒　田　"},{"num":1449,"type":"特　急","name":"いなほ　５号","time":"14:49","dest":"　秋　田　"},{"num":1614,"type":"普　通","name":"","time":"16:14","dest":"　酒　田　"},{"num":1653,"type":"普　通","name":"","time":"16:53","dest":"　酒　田　"},{"num":1658,"type":"特　急","name":"いなほ　７号","time":"16:58","dest":"　秋　田　"},{"num":1824,"type":"普　通","name":"","time":"18:24","dest":"　酒　田　"},{"num":1928,"type":"普　通","name":"","time":"19:28","dest":"　酒　田　"},{"num":2007,"type":"特　急","name":"いなほ　９号","time":"20:07","dest":"　酒　田　"},{"num":2057,"type":"普　通","name":"","time":"20:57","dest":"　酒　田　"},{"num":2203,"type":"特　急","name":"いなほ１１号","time":"22:03","dest":"　酒　田　"},{"num":2219,"type":"普　通","name":"","time":"22:19","dest":"　酒　田　"},{"num":2316,"type":"特　急","name":"いなほ１３号","time":"23:16","dest":"　酒　田　"},{"num":9999,"type":"","name":"","time":"","dest":""}]`;
+const dn_str = `[
+{"num":750,"type":"普　通","name":"","time":"7:50","dest":"　酒　田　"},
+{"num":814,"type":"普　通","name":"","time":"8:14","dest":"　酒　田　"},
+{"num":932,"type":"普　通","name":"","time":"9:32","dest":"　酒　田　"},
+{"num":1030,"type":"特　急","name":"いなほ　１号","time":"10:30","dest":"　秋　田　"},
+{"num":1131,"type":"普　通","name":"","time":"11:31","dest":"　酒　田　"},
+{"num":1222,"type":"普　通","name":"","time":"12:22","dest":"　酒　田　"},
+{"num":1300,"type":"特　急","name":"いなほ　３号","time":"13:00","dest":"　酒　田　"},
+{"num":1425,"type":"普　通","name":"","time":"14:25","dest":"　酒　田　"},
+{"num":1449,"type":"特　急","name":"いなほ　５号","time":"14:49","dest":"　秋　田　"},
+{"num":1615,"type":"普　通","name":"","time":"16:15","dest":"　酒　田　"},
+{"num":1654,"type":"普　通","name":"","time":"16:54","dest":"　酒　田　"},
+{"num":1658,"type":"特　急","name":"いなほ　７号","time":"16:58","dest":"　秋　田　"},
+{"num":1825,"type":"普　通","name":"","time":"18:25","dest":"　酒　田　"},
+{"num":1929,"type":"普　通","name":"","time":"19:29","dest":"　酒　田　"},
+{"num":2007,"type":"特　急","name":"いなほ　９号","time":"20:07","dest":"　酒　田　"},
+{"num":2058,"type":"普　通","name":"","time":"20:58","dest":"　酒　田　"},
+{"num":2203,"type":"特　急","name":"いなほ１１号","time":"22:03","dest":"　酒　田　"},
+{"num":2220,"type":"普　通","name":"","time":"22:20","dest":"　酒　田　"},
+{"num":2316,"type":"特　急","name":"いなほ１３号","time":"23:16","dest":"　酒　田　"},
+{"num":9999,"type":"","name":"","time":"","dest":""}]`;
 
 const up = JSON.parse(up_str);
 const dn = JSON.parse(dn_str);
