@@ -4,8 +4,6 @@ const dn_str = `[{"num":749,"type":"普　通","name":"","time":"7:49","dest":"�
 
 const up = JSON.parse(up_str);
 const dn = JSON.parse(dn_str);
-console.log(up);
-console.log(dn);
 
 const b_color = "#101010"
 const t_color = "#ffffff"
