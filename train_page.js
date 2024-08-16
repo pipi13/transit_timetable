@@ -53,10 +53,6 @@ function Display() {
 					document.getElementById("up1_time").innerHTML = "";
 					document.getElementById("up1_dest").innerHTML = "";
 				}
-				if (n_now==up[n_up].num && sec_now == 0) {
-					var audio = new Audio('up.mp3');
-					audio.play();
-				}
 				document.getElementById("up2_type").innerHTML = up[n_up+1].type;
 				if (up[n_up+1].type == exp) {
 					document.querySelector("#up2_type").style.backgroundColor = exp_color;
@@ -108,10 +104,6 @@ function Display() {
 					document.getElementById("down1_name").innerHTML = "";
 					document.getElementById("down1_time").innerHTML = "";
 					document.getElementById("down1_dest").innerHTML = "";
-				}
-				if (n_now==dn[n_dn].num && sec_now == 0) {
-					var audio = new Audio('down.mp3');
-					audio.play();
 				}
 				document.getElementById("down2_type").innerHTML = dn[n_dn+1].type;
 				if (dn[n_dn+1].type == exp) {
