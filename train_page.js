@@ -23,7 +23,6 @@ function Display() {
 	var n_now = Number(hour_now + mins_now);
 	document.getElementById("hour").innerHTML = hour_now;
 	document.getElementById("mins").innerHTML = mins_now;
-	console.log(n_now);
 	if (sec_now%2 == 0) {
 		document.querySelector("#colon").style.color = t_color;
 		
@@ -64,7 +63,6 @@ function Display() {
 				document.getElementById("up2_name").innerHTML = up[n_up+1].name;
 				document.getElementById("up2_time").innerHTML = up[n_up+1].time;
 				document.getElementById("up2_dest").innerHTML = up[n_up+1].dest;
-				console.log(n_up);
 				break;
 			}
 		}
@@ -80,7 +78,6 @@ function Display() {
 		document.getElementById("up2_name").innerHTML = "";
 		document.getElementById("up2_time").innerHTML = "";
 		document.getElementById("up2_dest").innerHTML = "";
-		console.log("up else");
 	}
 
 	if ( 500<=n_now && n_now<=dn[18].num) {
@@ -116,7 +113,6 @@ function Display() {
 				document.getElementById("down2_name").innerHTML = dn[n_dn+1].name;
 				document.getElementById("down2_time").innerHTML = dn[n_dn+1].time;
 				document.getElementById("down2_dest").innerHTML = dn[n_dn+1].dest;
-				console.log(n_dn);
 				break;
 			}
 		}
@@ -132,7 +128,6 @@ function Display() {
 		document.getElementById("down2_name").innerHTML = "";
 		document.getElementById("down2_time").innerHTML = "";
 		document.getElementById("down2_dest").innerHTML = "";
-		console.log("down else");
 	}
 	if ( 2316<n_now || n_now<500) {
 		document.getElementById("bottom").innerHTML = "本日の運行は終了しました";
